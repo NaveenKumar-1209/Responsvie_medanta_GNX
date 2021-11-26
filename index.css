@@ -1,0 +1,802 @@
+.body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.Header_fixed{
+  position:sticky;
+  top:0;
+  z-index: 10;
+}
+.medanta_container {
+  background-color: #ccc;
+}
+.medanta_header {
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  margin: auto 0;
+  background-color: #434544;
+}
+
+.first_nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+.first_nav ul a {
+  text-decoration: none;
+  color: #fff;
+}
+.first_nav ul li {
+  padding: 0 10px;
+}
+.second_nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.second_nav ul li {
+  padding: 0 10px;
+}
+.second_nav ul a {
+  text-decoration: none;
+  color: #fff;
+}
+svg {
+  fill: #a9a9a9;
+  /* font-size: 1.5rem; */
+  display: inline;
+}
+.second_nav ul button {
+  height: 30px;
+  width: 80px;
+  background-color: #eb4b3d;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.next_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 70px;
+  background-color: #fff;
+}
+.third_nav ul {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+}
+.third_nav ul li {
+  padding: 0 10px;
+}
+.third_nav ul a {
+  text-decoration: none;
+  color: #000;
+}
+.next_third {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+.next_third svg {
+  font-size: 2rem;
+}
+.next_third > div {
+  padding: 0 10px;
+}
+.next_third button,
+.bookAppointment button {
+  height: 30px;
+  width: 200px;
+  background-color: #eb4b3d;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.second_opinion {
+  background-color: #eb4b3d;
+  text-align: center;
+  margin-top: -16px;
+}
+.second_opinion a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+.heart_img {
+  height: 532px;
+  background-image: url("./images/Liver.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.search_panel {
+  margin-top: -332px;
+  padding-bottom: 30px;
+}
+.search_panel .search_bar {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search_panel .search_bar h1 {
+  font-weight: 700;
+}
+.input-group {
+  width: 50% !important;
+}
+.input-group svg {
+  font-size: 2rem;
+}
+.btn-outline-secondary {
+  background-color: #eb4b3d;
+  border-color: #eb4b3d !important;
+}
+.btn-outline-secondary:hover {
+  background-color: #eb4b3d;
+}
+.myBreadCrumb {
+  background-color: #ccc;
+}
+.myBreadCrumb a {
+  text-decoration: none;
+  color: #eb4b3d;
+  font-weight: 500;
+}
+.breadcrumb {
+  padding: 5px 69px !important;
+}
+.video_icon svg {
+  font-size: 5rem;
+}
+.myNavbarFixed{
+  position:sticky;
+  top:139px;
+  z-index:50;
+}
+.stickyStyle{
+  background-color: #2059c9;
+  height:75px;
+  width:100vw;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: #eb4b3d !important;
+}
+.about_container {
+  width: 80%;
+  position: relative;
+  margin: auto auto;
+}
+.navbar-nav {
+  position: relative;
+  margin: auto auto;
+}
+.nav-link {
+  color: #fff !important;
+}
+.read_more,
+.show_more {
+  display: none;
+}
+.read_more_btn,
+.show_more_btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #eb4b3d;
+}
+.about_text.show_more_about .read_more {
+  display: inline;
+}
+.holistic_text.show_more_holistic .show_more {
+  display: inline;
+}
+.about_text {
+  width: 80%;
+  position: relative;
+  margin: auto auto;
+}
+.quote_section {
+  width: 80%;
+  position: relative;
+  margin: auto auto;
+}
+.chairman_section {
+  background-color: #e6dbda;
+}
+.WhatWeTreat {
+}
+.background_holistic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./images/medantacare-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-height: 547px;
+}
+.holistic_content {
+  width: 80%;
+  position: relative;
+  margin: auto auto;
+  margin-top: -332px;
+  padding-bottom: 30px;
+}
+.holistic_description {
+  color: #fff;
+}
+.experience_doctors {
+  background-color: #fff;
+  width: 100%;
+}
+.cards {
+  border: 1px solid #ccc;
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+.experience_doctors img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+.view_more {
+  background-image: url(./images/sprite.png);
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -165px 0;
+}
+.specialized_logo {
+  background-image: url(./images/sprite.png);
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -720px -640px;
+}
+.experience_logo {
+  background-image: url(./images/sprite.png);
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -160px -640px;
+}
+.specialized_team p {
+  width: 85%;
+  position: relative;
+  margin: 0 auto;
+}
+.less_arrow {
+  background-image: url(./images/sprite.png);
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -73px 0;
+}
+.spacialized_details {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+}
+.specialized_clinic {
+  background-color: #f2f2f2;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.less_arrow_text {
+  color: #a9a9a9;
+  font-weight: 700;
+}
+.specialized_clinic_main {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+}
+.utilized_technology {
+  background-color: #fff;
+}
+.down_arrow_utilized_daVinci,
+.down_arrow_utilized_moduler,
+.down_arrow_utilized_ctScan,
+.down_arrow_utilized_tesla,
+.down_arrow_utilized_myrian,
+.down_arrow_utilized_fdg,
+.down_arrow_utilized_transplant,
+.down_arrow_utilized_surgery,
+.down_arrow_utilized_biliary,
+.down_arrow_utilized_inter {
+  background-image: url(./images/sprite.png);
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -90px 0;
+}
+.up_arrow_utilized_daVinci,
+.up_arrow_utilized_moduler,
+.up_arrow_utilized_ctScan,
+.up_arrow_utilized_tesla,
+.up_arrow_utilized_myrian,
+.up_arrow_utilized_fdg,
+.up_arrow_utilized_transplant,
+.up_arrow_utilized_surgery,
+.up_arrow_utilized_biliary,
+.up_arrow_utilized_inter {
+  background-image: url(./images/sprite.png);
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -150px 0;
+}
+.utilized_accordion {
+  width: 60%;
+  position: relative;
+  margin: 0 auto;
+}
+.utilized_header_daVinci,
+.utilized_header_moduler,
+.utilized_header_ctScan,
+.utilized_header_tesla,
+.utilized_header_myrian,
+.utilized_header_fdg,
+.utilized_header_transplant,
+.utilized_header_surgery,
+.utilized_header_biliary,
+.utilized_header_inter {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.daVinci_more,
+.moduler_more,
+.ctScan_more,
+.tesla_more,
+.myrian_more,
+.fdg_more,
+.transplant_more,
+.surgery_more,
+.biliary_more,
+.inter_more {
+  display: none;
+}
+.daVinci_text.daVinci_more_text .daVinci_more,
+.moduler_text.moduler_more_text .moduler_more,
+.ctScan_text.ctScan_more_text .ctScan_more,
+.tesla_text.tesla_more_text .tesla_more,
+.myrian_text.myrian_more_text .myrian_more,
+.fdg_text.fdg_more_text .fdg_more,
+.transplant_text.transplant_more_text .transplant_more,
+.surgery_text.surgery_more_text .surgery_more,
+.biliary_text.biliary_more_text .biliary_more,
+.inter_text.inter_more_text .inter_more {
+  display: inline;
+}
+.background_medanta_story {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./images/banner-bg-lg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-height: 547px;
+  margin-top: -135px;
+}
+.medanta_story_content {
+  width: 80%;
+  position: relative;
+  margin: auto auto;
+  margin-top: -406px;
+  padding-bottom: 30px;
+}
+.sprite_logo_story {
+  background-image: url(./images/sprite.png);
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -640px -640px;
+}
+.medanta_story_start {
+  color: #fff;
+}
+.carousel-indicator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: -50px; */
+  position: absolute;
+  top: -50px;
+}
+.carousel-indicator button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #ccc;
+}
+.medanta_story_carousal {
+  position: relative;
+}
+.carouselItems {
+  width: 75%;
+  position: relative;
+  margin: 0 auto;
+}
+.success_first_slide {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./images/slide_one.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 547px;
+}
+.success_second_slide {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./images/slide_two.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 547px;
+}
+.success_third_slide {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./images/slide_three.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 547px;
+}
+.success_fourth_slide {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./images/slide_four.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 547px;
+}
+.success_fifth_slide {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./images/slide_five.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 547px;
+}
+.success_sixth_slide {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./images/slide_six.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 547px;
+}
+.quotes_symbol {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./images/sprite.png);
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -90px -360px;
+}
+.quotes_text {
+  color: #fff;
+}
+.video_icon_slider {
+  min-height: 547px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quotes_alignment {
+  width: 30%;
+  height: 100%;
+  position: relative;
+  margin: auto auto;
+}
+.whatNew_background {
+  background-image: url(./images/membershipred-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-height: 547px;
+}
+.whatNew_sprites {
+  background-image: url(./images/sprite.png);
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -800px -640px;
+}
+.whatNew_content {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+}
+.whatNew_top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.whatNew_main {
+  min-height: 547px;
+}
+.NewsUpdate_logo {
+  background-image: url(./images/sprite.png);
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -500px -200px;
+}
+.NewsUpdate_logo.active {
+  background-position: -650px -200px;
+}
+.NewsUpdate{
+  cursor: pointer;
+}
+.NewsUpdate_text:hover{
+  color:#eb4b3d;
+}
+.activeProgram_logo {
+  background-image: url(./images/sprite.png);
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -550px -200px;
+}
+.activeProgram_logo.active {
+  background-position: -703px -200px;
+}
+.activeProgram{
+  cursor: pointer;
+}
+.activeProgram_text:hover{
+  color:#eb4b3d;
+}
+.research_logo {
+  background-image: url(./images/sprite.png);
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -129px -725px;
+}
+.research_logo.active {
+  background-position: -369px -725px;
+}
+.research{
+  cursor: pointer;
+}
+.research_text:hover{
+  color:#eb4b3d;
+}
+.patient_logo {
+  background-image: url(./images/sprite.png);
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -600px -200px;
+}
+.patient_logo.active{
+  background-position: -750px -200px;
+}
+.patient{
+  cursor: pointer;
+}
+.patient_text:hover{
+  color:#eb4b3d;
+}
+.NewsUpdate,.activeProgram,.research,.patient{
+  height:25%;
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+  color:#fff;
+}
+.whatNew_left{
+  background-color: #000;
+}
+.whatNew_right{
+  background-color: #fff;
+}
+.whatNew_right a{
+  text-decoration: none;
+  color:#eb4b3d;
+}
+.medanta_footer{
+  width:80%;
+  position: relative;
+  margin:10px auto;
+}
+.twitter_logo{
+  background-image: url(./images/sprite.png);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -20px -20px;
+}
+.twitter_logo.active{
+  background-position: -80px -20px;
+}
+.facebook_logo{
+  background-image: url(./images/sprite.png);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -40px -20px;
+}
+.facebook_logo.active{
+  background-position: -100px -20px;
+}
+.youtube_logo{
+  background-image: url(./images/sprite.png);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background-size: 1000px;
+  background-position: -60px -20px;
+}
+.youtube_logo.active{
+  background-position: -120px -20px;
+}
+.medanta_allLink, .medanta_allLink a{
+  text-decoration: none;
+  color:#a9a9a9;
+}
+.medanta_allLink a:hover{
+  color:#eb4b3d;
+}
+.socialNetwork_details a{
+  text-decoration: none;
+  color:#eb4b3d;
+}
+.NewsUpdate_text.active{
+  color:#eb4b3d;
+}
+.activeProgram_text.active{
+  color:#eb4b3d;
+}
+.research_text.active{
+  color:#eb4b3d;
+}
+.patient_text.active{
+  color:#eb4b3d;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .myBreadCrumb{
+    display:none !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px){
+  .myBreadCrumb{
+    display:none !important;
+  }
+  .socialNetwork_details{
+    display:none
+  }
+  .quotes_alignment {
+    width: 80%;
+  }
+  .video_icon_slider {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .myBreadCrumb{
+    display:none !important;
+  }
+  .socialNetwork_details{
+    display:none
+  }
+  .quotes_alignment {
+    width: 80%;
+  }
+  .video_icon_slider {
+    min-height: 200px;
+  }
+  .about_container{
+    width:95%;
+  }
+  .about_text{
+    width:95%;
+  }
+  .quote_section{
+    width:95%;
+  }
+  .holistic_content{
+    width:95%;
+  }
+  .spacialized_details {
+    width:95%;
+  }
+  .specialized_clinic_main{
+    width:95%;
+  }
+  .medanta_story_content{
+    width:95%;
+  }
+  .whatNew_content{
+    width:95%;
+  }
+  .medanta_footer{
+    width:95%;
+  }
+}
